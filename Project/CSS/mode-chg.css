@@ -1,0 +1,30 @@
+.mod-chg{
+    background-color:black;
+}
+
+.mod-chg tr,.mod-chg th,.mod-chg input,.mod-chg select {
+        background-color: rgba(42, 196, 22, 0.05) !important; 
+        color: whitesmoke;
+}
+.mod-chg .input2{
+    color: whitesmoke;
+}
+.mod-chg .result{
+    color: whitesmoke;
+}
+.mod-btn{
+    width: 45px;
+    height: 47px;
+    border: 2px;
+    background-color: gray;
+   border-radius: 27%;
+    position: fixed;
+    bottom: 19px;
+    right: 14px;
+    outline: none;
+    cursor: pointer;
+}
+.mod-chg  .fas{
+    color: white;
+}
+ 

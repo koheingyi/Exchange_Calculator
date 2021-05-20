@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+     font-family: 'Akaya Telivigala', cursive;
+}
+
+.app{
+    width: 700px;
+    margin: 100px auto;
+}
+.name{
+        width: 40%;
+        font-size: 20px;
+        border: 2px solid paleturquoise;
+        border-radius: 15px;
+        background-color: powderblue;
+        padding: 10px;
+         animation: aa  2s infinite linear  ;     
+         animation-direction: alternate-reverse;
+        transform: translateX(420px); 
+}
+        @keyframes aa{
+                from{
+                        transform: translateX(0px);
+                  }
+                  to{
+                    transform: translateX(420px);
+                  } 
+}
+.input1{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+}
+.brand{
+        font-size: 30px;
+    color: darkcyan;
+}
+.result{
+        font-size: 50px;
+}
+.divider{
+  background: #ff253a;
+    height: 3px;
+ }
+ .input2{
+         margin-top: 25px;
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+        
+ }
+ label{
+         display: block;
+ }
+ input{
+         padding: 5px;
+        width: 100%;
+        outline: none;
+        text-align: right;
+        /* font-size: 10px; */
+ }
+ #To{
+     padding: 5px;
+    width: 150px;
+ }
+ #From{
+      padding: 5px;
+     width: 150px;
+
+ }
+
+ .btn{
+         padding: 10px;
+         font-size: 20px;
+         background: powderblue;
+         outline: none;
+ }
+ #rowspacer td{
+         text-align: center;
+        
+}
+#rowspacer{
+        /* background-color: rgb(221, 174, 44); */
+}
+ .table1{
+        
+        margin-top: 30px;
+}
+.table{
+            width: 700px;
+           border-collapse: collapse;
+          }
+             tr,td{
+                     border: 2px solid seagreen ;
+                     /*border-radius: 20px;*/
+                     padding: 30px;
+             }
+             tr:hover{
+                 background: powderblue;
+             }
+
+             th{
+                border: 2px solid seagreen ;
+                padding: 20px;
+                 background: papayawhip;
+             }
+             @media screen and (max-width:480px){
+                     .app{
+                             width: 100%;
+                            /* padding: 15px; */
+                             margin: 15px auto;
+                            
+                     }
+                     .name{
+                        border-radius: 10px;
+                             transform: translateX(240px);
+                             animation: bb 2s;
+                     }
+                     @keyframes bb {
+                             from{              
+                                        transform: translateX(0px);
+                                        
+                             }
+                             to{
+                                transform: translateX(240px);   
+                               
+                             }
+                     }
+                     .brand{
+                             width: 100%;
+                     }
+                     input{
+                       background-color: beige;      
+                        }
+                     .input1{
+                             flex-flow: column;
+                             align-items: flex-end;
+                     }
+                     .input2{
+                        flex-wrap: wrap;
+                     }
+                     .input,.form,.to{
+                             width: 100%;
+                     }
+                     .form,.to{
+                             width: 45%;
+                             margin-top: 10px;
+                     }
+                     .btn{
+                             width: 100%;
+                            
+                     }
+                     .btn1{
+                             width: 100%;
+                              margin-top: 10px;
+                     }
+                     .table1{
+                             width: 100%;
+                     }
+                                .table{
+                                        width: 100%;
+                                }
+                    tr,td{
+                        border: 2px solid seagreen ;
+                        
+                        padding: 5px;
+                    }
+                    .mod-btn{
+                        position: absolute;
+                        top: 128px;
+                        left: 13px;
+                    }
+                }
+             
+
